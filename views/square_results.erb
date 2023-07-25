@@ -1,0 +1,9 @@
+<h1>Square Results</h1>
+
+<dl><dt>Number</dt>
+  <dd><%= params.fetch("number") %></dd>
+  <dt>Square</dt>
+  <dd><%= params.fetch("number").to_i**2.to_f %></dd>
+</dl>
+
+<a href="/square/new">Calculate another square</a>
