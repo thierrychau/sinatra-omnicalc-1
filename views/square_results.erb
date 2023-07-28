@@ -3,7 +3,7 @@
 <dl><dt>Number</dt>
   <dd><%= params.fetch("number") %></dd>
   <dt>Square</dt>
-  <dd><%= params.fetch("number").to_i**2.to_f %></dd>
+  <dd><%= params.fetch("number").to_f**2 %></dd>
 </dl>
 
 <a href="/square/new">Calculate another square</a>

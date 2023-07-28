@@ -2,8 +2,8 @@
 
 <dl><dt>Number</dt>
   <dd><%= params.fetch("number") %></dd>
-  <dt>Square</dt>
-  <dd><%= params.fetch("number").to_i**(1/2).to_f %></dd>
+  <dt>Square Root</dt>
+  <dd><%= params.fetch("number").to_f ** (0.5) %></dd>
 </dl>
 
 <a href="/square_root/new">Calculate another square root</a>
